@@ -14,7 +14,7 @@ spec:
         app: node-todo
     spec:
       containers:
-      - image: index.docker.io/anthonyvetter/spring-petclinic:latest
+      - image: index.docker.io/arey/springboot-petclinic:latest
         name: node-todo
         ports:
-        - containerPort: 80
+        - containerPort: 8080
