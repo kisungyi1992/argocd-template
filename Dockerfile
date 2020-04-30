@@ -14,7 +14,6 @@ COPY --from=1 /app/target/*.jar /app
 # Uncomment the RUN line if the version has changed
 # Then use the output of docker build to modify the
 # .jar file name
-
 #RUN ls
 
 CMD ["java","-jar","spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar"] 
