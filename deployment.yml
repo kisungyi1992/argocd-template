@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: spring-petclinic
 spec:
-  replicas: 4
+  replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
