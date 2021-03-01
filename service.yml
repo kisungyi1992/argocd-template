@@ -4,7 +4,7 @@ metadata:
   name: spring-petclinic
 spec:
   ports:
-  - port: 8080
-    targetPort: 8080
+  - port: 8081
+    targetPort: 8081
   selector:
     app: spring-petclinic
