@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       # modify the following line with your Docker Hub account name
-      - image: index.docker.io/kisungyi92/spring-petclinic-hub:latest
+      - image: index.docker.io/kisungyi92/spring-petclinic-hub:v2
         name: spring-petclinic
         ports:
         - containerPort: 8181
