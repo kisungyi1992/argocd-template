@@ -18,4 +18,4 @@ spec:
       - image: index.docker.io/kisungyi92/spring-petclinic-hub:latest
         name: spring-petclinic
         ports:
-        - containerPort: 8081
+        - containerPort: 8181
